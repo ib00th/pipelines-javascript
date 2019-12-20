@@ -18,4 +18,6 @@ steps:
 - script: |
     npm install
     npm run build
+    npm install -g axios
+    npm install -g query-string
   displayName: 'npm install and build'
