@@ -21,3 +21,7 @@ steps:
     npm install -g axios
     npm install -g query-string
   displayName: 'npm install and build'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: 'C:\temp\pipeline'
